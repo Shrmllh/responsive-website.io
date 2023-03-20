@@ -1,0 +1,41 @@
+body *{
+    display: flex;
+    font-size: 30px;
+}
+
+header, section, aside, main, footer {
+    border: 1px solid black;
+}
+
+header {
+    height: 100 px
+    margin-bottom: 5px;
+    background-color: #ccc;
+
+}
+
+main {
+    height: 75vh;
+    background-color: rgb(235, 184, 224);
+}
+
+main aside{
+    flex-grow: 1;
+}
+
+main section{
+    flex-grow: 4;
+}
+
+footer{
+    height: 100px;
+    margin-top: 5px;
+}
+
+#navbar{
+    flex-grow: 4.6;
+}
+
+#settings{
+    flex-grow: 1;
+}
